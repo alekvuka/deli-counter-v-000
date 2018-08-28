@@ -19,3 +19,7 @@ else
 end
 
 end
+
+def now_serving(katz_deli)
+  customer = katz_deli[0]
+  puts "Currently serving #{person}"
