@@ -12,6 +12,6 @@ def line(katz_deli)
 
   phrase = "The line is currently: #{phrase_array}"
 
-  return phrase
+  puts phrase
 
 end
