@@ -2,6 +2,10 @@
 
 def line(katz_deli)
 
+if katz_deli.size = 0
+  puts "The line is currently empty."
+
+else
   phrase_array = Array.new
   counter = 1
 
@@ -10,8 +14,8 @@ def line(katz_deli)
     counter += 1
   end
 
-  phrase = "The line is currently: #{phrase_array.join(" ")}"
+  puts "The line is currently: #{phrase_array.join(" ")}"
 
-  puts phrase
+end
 
 end
