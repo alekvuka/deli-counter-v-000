@@ -12,4 +12,6 @@ def line(katz_deli)
 
   phrase = phrase_array.join
 
+  return phrase
+
 end
