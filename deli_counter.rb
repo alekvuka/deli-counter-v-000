@@ -10,7 +10,7 @@ def line(katz_deli)
     counter += 1
   end
 
-  phrase = "The line is currently: #{phrase_array}"
+  phrase = "The line is currently: #{phrase_array.join}"
 
   puts phrase
 
