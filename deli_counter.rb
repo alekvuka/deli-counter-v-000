@@ -20,6 +20,7 @@ end
 
 end
 
+
 def now_serving(katz_deli)
 
   if katz_deli.size == 0
@@ -29,5 +30,13 @@ def now_serving(katz_deli)
     puts "Currently serving #{customer}."
     katz_deli.shift
   end
+
+end
+
+def take_a_number(name, katz_deli)
+
+  katz_deli.push(name)
+
+
 
 end
