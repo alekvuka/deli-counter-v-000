@@ -6,7 +6,7 @@ def line(katz_deli)
   counter = 1
 
   katz_deli.each do |customer|
-    phrase_array = "#{counter}. #{customer}"
+    phrase_array = "The line is currently: #{counter}. #{customer}"
     counter += 1
   end
 
